@@ -1,0 +1,64 @@
+body{
+    background-color: #909090;
+
+}
+ul{
+    float: right;
+}
+.begin{
+     padding-left: 0px;  
+}
+.end{
+    padding-right: 0px;
+}
+ul li {
+   display:inline;
+   margin: 7px;
+   padding-right: 30px;
+   padding-left: 30px;
+   font-family: cursive ;  
+   font-style: normal;
+   font-weight: bold;
+   font-size: 32px;
+   line-height: 79px;
+}
+ul li a{
+    transition: 300ms;
+    text-decoration : none; 
+    color: #4F4F4F;
+    padding: 5px 20px;
+    
+}
+ul li a:hover{
+    font-size: 40px;
+    background-color: white;
+    color : #4F4F4F;
+    border-radius: 20px;
+    
+}
+
+#heroIMG img{
+    
+    margin-top: 0px;
+}
+
+#text p{
+    align-items: center;
+    font-family: cursive;
+    color: white;
+}
+
+#quote img{
+    position: absolute;
+width: 764px;
+height: 200px;
+left: 645px;
+top: 209px;
+}
+#intro img{
+    position: absolute;
+width: 700px;
+height: 214px;
+left: 750px;
+top: 700px;
+}
